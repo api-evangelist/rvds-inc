@@ -1,7 +1,24 @@
 aid: rvds-inc
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rvds-inc.png
 name: RVDS Inc.
-description: RVDS Inc. is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: RVDS Inc. is a South Korean food and beverage company that describes itself
+  as growing into Korea's representative Multi-K-Food Brand Operator, building and operating
+  a portfolio of consumer dining brands including Dodo Korea, Butai, and Salad Monster.
+  Based in Cheongju-si, Chungcheongbuk-do, the company is backed by 500 Global. As a
+  consumer food-brand operator it publishes no public API, developer portal, SDKs, or
+  technical documentation, so this profile carries only identity and probed domain-security
+  signals rather than API artifacts.
 url: https://raw.githubusercontent.com/api-evangelist/rvds-inc/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +28,14 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Food and Beverage
+- Consumer Brands
+- Restaurants
+- Korea
+- Food Service
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +43,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/rvds-inc-domain-security.yml
 - type: Website
   url: https://rvds.kr
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
