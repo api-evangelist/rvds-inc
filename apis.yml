@@ -22,7 +22,7 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rvds-inc.png
-name: RVDS Inc.
+name: RVDS
 description: RVDS Inc. is a South Korean food and beverage company that describes itself
   as growing into Korea's representative Multi-K-Food Brand Operator, building and operating
   a portfolio of consumer dining brands including Dodo Korea, Butai, and Salad Monster.
@@ -70,3 +70,4 @@ x-enrichment:
   status: minimal
   artifacts_added: 1
   pass: local-v1
+x-legal-name: RVDS Inc.
